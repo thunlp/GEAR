@@ -1,6 +1,6 @@
 ## GEAR
 
-Source code and dataset for the ACL 2019 paper "GEAR: Graph-based Evidence Aggregating and Reasoning for Fact Verification".
+Source code and dataset for the ACL 2019 paper "[GEAR: Graph-based Evidence Aggregating and Reasoning for Fact Verification](GEAR.pdf)".
 
 ## Requirements:
 Please make sure your environment includes:
