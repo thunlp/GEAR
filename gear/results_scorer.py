@@ -135,5 +135,5 @@ if __name__ == '__main__':
     print('Collect test results:')
     test_collector('../data/bert/bert-nli-test-retrieve-set.tsv',
                    '../outputs/gear-5evi-1layer-att-314seed-001/test-results.tsv',
-                   '../data/fever/shared_task_test.jsonl', 0.001)
+                   '../data/fever/shared_task_test.jsonl', 0)
     print('Results can be found in predictions.jsonl')
