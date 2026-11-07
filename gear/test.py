@@ -62,7 +62,7 @@ for seed in seeds:
         print('%s results donnot exist!' % base_dir)
         continue
 
-    checkpoint = torch.load(base_dir + 'best.pth.tar')
+    checkpoint = torch.load(base_dir + 'best.pth.tar', weights_only=True)
     model.load_state_dict(checkpoint['model'])
     model.eval()
 
